@@ -1,0 +1,25 @@
+header {
+  display: flex;
+  justify-content: center; /* Centra el contenido horizontalmente */
+  background-color:#F29F05 ;
+  padding: 10px;
+}
+
+.contenedor-imagen {
+  text-align: center; 
+}
+
+.contenedor-imagen img {
+  height: 130px;
+  display: block;
+  margin: 0 auto;
+}
+
+.nombre-logo {
+  color: rgb(26, 24, 26);
+  font-weight: bold;
+  font-size: 40px;
+  margin-top:5px;
+  font-family: 'Orbitron', sans-serif;
+
+}

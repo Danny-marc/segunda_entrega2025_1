@@ -1,0 +1,66 @@
+#estilo {
+    width: 400px;
+    height: 470px;
+    background-color: #141313;
+
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+#imagen-fondo {
+    background-image: url("https://cdn.pixabay.com/photo/2016/01/22/05/45/texture-1155341_1280.jpg");
+}
+
+
+#nombre {
+    font-size: 20px;
+    font-weight: bold;
+    z-index: 3;
+    color: #eba716;
+
+}
+
+.dimecion {
+    color: #e6ece5;
+}
+
+.colordimension {
+    color: #e6ece5;
+    font-weight: bold;
+}
+
+.infodimension {
+    color: #f5c905;
+    font-weight: bold;
+}
+
+#inpersonaje {
+    margin-top: -35px;
+    position: absolute;
+    background-color: #2e3131ea;
+    width: 100% !important;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.MuiCardMedia-img {
+    height: 425px !important;
+    width: 100% !important;
+    object-fit: contain !important;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+
+    z-index: 1;
+    transition: all 0.3s ease-in-out;
+}
+
+.MuiCardMedia-img:hover {
+    transform: scale(1.15);
+
+}
+
+.MuiCardContent-root {
+    padding: 0 !important;
+}
