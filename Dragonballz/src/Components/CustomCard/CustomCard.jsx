@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
@@ -11,7 +11,7 @@ import './CustomCard.css';
 const CustomCard = (props) => {
  
   return (
-    <Card id="estilo" sx={{ maxWidth: 345 }} onClick={toggleDetalles} style={{ cursor: 'pointer' }}>
+    <Card id="estilo" sx={{ maxWidth: 345 }}>
       <CardActionArea>
         <div id="imagen-fondo">
           <CardMedia
@@ -28,8 +28,6 @@ const CustomCard = (props) => {
             <Typography className="dimecion">
               {props.genero} - {props.raza}
             </Typography>
-
-          
           </div>
         </CardContent>
       </CardActionArea>
